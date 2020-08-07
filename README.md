@@ -43,64 +43,64 @@ If users want use abayesQR as local region haplotype calculation tool. Users can
 ##########<br>
 ##The name of the project.<br>
 **Proj_Name** = Project_Name<br> 
-##Absolute paths for fastq files.
-Fastq_1_Path = /Path/to/Test.1.fastq
-Fastq_2_Path = /Path/to/Test.2.fastq
-##Absolute path for reference file.
-Reference_Seq= /Path/to/reference.fa
-##File locations: output files directory.
-Output_Path = /Path/to/Output_Folder
-##Reconstruction Start Position
-Reconstruction_Start = 501 
-##Reconstruction End Position
-Reconstruction_End = 9219 
-##The length of each region for divide and conquer
-Region_Length = 500 
-##Mapping quality cutoff
-Min_Mapping_Qual = 40
-##Read length cutoff
-Min_Read_Length = 100 
-##Maximum insert read length
-Max_Insert_Length = 1000 
-##Estimated sequencing error
-Sequence_Err = 0.1
-##MEC_Improvement_Cutoff, please refer to TenSQR user manual
-MEC_Improvement_Cutoff = 0.0312 
-##Initial_Population_Size, please refer to TenSQR user manual
-Initial_Population_Size= 5 
-##The weight of the constraint Sigma freq_i = 1, where freq_i is in the in-pool frequency for haplotype_i.
-Regression_One_Vector_Weight = 50.0 
-##The weight of the constraints Sigma freq_i * h_ij = MAF_j (j is the SNP index and i is the haplotype index)
-Regression_Hap_MAF_Weight = 5.0  
-##The weight for LD (specifically, the probability for both SNP_k and SNP_j being the alternate allele)
-Regression_Hap_LD_Weight = 1.0  
-##Maximum SNP mismatch ratio tolerance in region extextion
-BFS_Mismatch_Tolerance_Rate = 0.1
-Number_Threads= 8 
-##Number of maximum selected haplotypes to generate higher level potential haplotypes for following L0L1 regression.
-Maximum_Haps_R = 20 
-##The minimum regularization gamma penalty for L0L1 regression.
-Regression_Gamma_Min=0.0001 
-##The maximum regularization gamma penalty for L0L1 regression.
-Regression_Gamma_Max=0.1 
-##The number of gamma values beween Regression_Gamma_Min and Regression_Gamma_Max for L0L1 regression.
-Regression_n_Gamma = 10 
-##The lambda penalty for L0L1 regression.
-Regression_Lambda = 0.002
-##The minimum frequency cutoff for haplotype. 
-Min_Hap_Freq = 0.01 
-##Number of maximum potential haplotypes for L0L1 regression.
-Max_L0L1_Regional_Haps = 1000 
-##Absolute paths for bwa.
-bwa = /Path/to/bwa
-##Absolute paths for Rscript.
-Rscript_path= /Path/to/Rscript 
-##Absolute paths for ExtractMatrix.
-ExtractMatrix = /Path/to/ExtractMatrix
-##Absolute paths for TenSQR.py.
-TenSQR = /Path/to/TenSQR.py
-##Absolute paths for PYTHON3.
-PYTHON = /Path/to/PYTHON3
+##Absolute paths for fastq files.<br> 
+Fastq_1_Path = /Path/to/Test.1.fastq<br> 
+Fastq_2_Path = /Path/to/Test.2.fastq<br> 
+##Absolute path for reference file.<br> 
+Reference_Seq= /Path/to/reference.fa<br> 
+##File locations: output files directory.<br> 
+Output_Path = /Path/to/Output_Folder<br> 
+##Reconstruction Start Position<br> 
+Reconstruction_Start = 501 <br> 
+##Reconstruction End Position<br> 
+Reconstruction_End = 9219 <br> 
+##The length of each region for divide and conquer<br> 
+Region_Length = 500 <br> 
+##Mapping quality cutoff<br> 
+Min_Mapping_Qual = 40<br> 
+##Read length cutoff<br> 
+Min_Read_Length = 100 <br> 
+##Maximum insert read length<br> 
+Max_Insert_Length = 1000 <br> 
+##Estimated sequencing error<br> 
+Sequence_Err = 0.1<br> 
+##MEC_Improvement_Cutoff, please refer to TenSQR user manual<br> 
+MEC_Improvement_Cutoff = 0.0312 <br> 
+##Initial_Population_Size, please refer to TenSQR user manual<br> 
+Initial_Population_Size= 5 <br> 
+##The weight of the constraint Sigma freq_i = 1, where freq_i is in the in-pool frequency for haplotype_i.<br> 
+Regression_One_Vector_Weight = 50.0 <br> 
+##The weight of the constraints Sigma freq_i * h_ij = MAF_j (j is the SNP index and i is the haplotype index)<br> 
+Regression_Hap_MAF_Weight = 5.0  <br> 
+##The weight for LD (specifically, the probability for both SNP_k and SNP_j being the alternate allele)<br> 
+Regression_Hap_LD_Weight = 1.0  <br> 
+##Maximum SNP mismatch ratio tolerance in region extextion<br> 
+BFS_Mismatch_Tolerance_Rate = 0.1<br> 
+Number_Threads= 8 <br> 
+##Number of maximum selected haplotypes to generate higher level potential haplotypes for following L0L1 regression.<br> 
+Maximum_Haps_R = 20 <br> 
+##The minimum regularization gamma penalty for L0L1 regression.<br> 
+Regression_Gamma_Min=0.0001 <br> 
+##The maximum regularization gamma penalty for L0L1 regression.<br> 
+Regression_Gamma_Max=0.1 <br> 
+##The number of gamma values beween Regression_Gamma_Min and Regression_Gamma_Max for L0L1 regression.<br> 
+Regression_n_Gamma = 10 <br> 
+##The lambda penalty for L0L1 regression.<br> 
+Regression_Lambda = 0.002<br> 
+##The minimum frequency cutoff for haplotype. <br> 
+Min_Hap_Freq = 0.01 <br> 
+##Number of maximum potential haplotypes for L0L1 regression.<br> 
+Max_L0L1_Regional_Haps = 1000 <br> 
+##Absolute paths for bwa.<br> 
+bwa = /Path/to/bwa<br> 
+##Absolute paths for Rscript.<br> 
+Rscript_path= /Path/to/Rscript <br> 
+##Absolute paths for ExtractMatrix.<br> 
+ExtractMatrix = /Path/to/ExtractMatrix<br> 
+##Absolute paths for TenSQR.py.<br> 
+TenSQR = /Path/to/TenSQR.py<br> 
+##Absolute paths for PYTHON3.<br> 
+PYTHON = /Path/to/PYTHON3<br> 
 
 
 ### Citations
