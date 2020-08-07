@@ -17,22 +17,29 @@ Several other tools are prerequisites for running. PoolHapX. Users can download 
 * python3
 * ExtractMatrix (if using TenSQR calculating local region haplotype): https://github.com/SoYeonA/TenSQR
 * TenSQR.py and its prerequisites (if using TenSQR calculating local region haplotype): https://github.com/SoYeonA/TenSQR
-* abayesQR (if using aBayesQR calculating local region haplotype) : https://github.com/SoYeonA/aBayesQR
+* aBayesQR (if using aBayesQR calculating local region haplotype) : https://github.com/SoYeonA/aBayesQR
 
 ### Functions
 * TenSQR: Using TenSQR as local region haplotype calculation tool
-* abayesQR: Using abayesQR as local region haplotype calculation tool
+* aBayesQR: Using aBayesQR as local region haplotype calculation tool
 
 
 ### Quick start with included example data
 
-Example data is provided in the "Example" folder. Users can see the reference, fastq files under the “Example” folder. After updating absolute paths of executable (such as bwa etc) and parent folder in the TenSQR.config file, users can run PoolHapX by a simple commands:
+Example data is provided in the "Example" folder. Users can see the reference, fastq files under the “Example” folder. After updating absolute paths of executable (such as bwa etc) and parent folder in the TenSQR.config file, users can run WgLink by a simple commands:
 
 Usage:
 
 `java -jar WgLink.jar TenSQR TenSQR.config`
 
-Users will then generate the final haplotype results for each pool at the “output” folder under their working directory.
+Users will then generate the final haplotype results at the “output” folder: Final.Haps .
+
+If users want to try using abayesQR as local region haplotype calculation tool. Users can updating absolute paths of executable (such as bwa etc) and parent folder in the aBayesQR.config file, users can run WgLink by a simple commands:
+
+`java -jar WgLink.jar aBayesQR aBayesQR.config`
+
+
+
 
 
 
