@@ -65,6 +65,8 @@ If users want use abayesQR as local region haplotype calculation tool. Users can
 **Max_Insert_Length** = 1000 <br> 
 ##Estimated sequencing error<br> 
 **Sequence_Err** = 0.1<br> 
+##SNV_Cutoff, please refer to TenSQR user manual<br> 
+**SNV_Cutoff** = 0.01<br> 
 ##MEC_Improvement_Cutoff, please refer to TenSQR user manual<br> 
 **MEC_Improvement_Cutoff** = 0.0312 <br> 
 ##Initial_Population_Size, please refer to TenSQR user manual<br> 
