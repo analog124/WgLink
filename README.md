@@ -17,7 +17,7 @@ Several other tools are prerequisites for running WgLink. Users can download and
 * python3
 * ExtractMatrix (if using TenSQR calculating local region haplotype): https://github.com/SoYeonA/TenSQR
 * TenSQR.py and its prerequisites (if using TenSQR calculating local region haplotype): https://github.com/SoYeonA/TenSQR
-* aBayesQR (if using aBayesQR calculating local region haplotype) : https://github.com/SoYeonA/aBayesQR
+* aBayesQR (if using aBayesQR calculating local region haplotype) : https://github.com/SoYeonA/aBayesQR <br>
 Pleae make sure that you can successfully run TenSQR or aBayesQR on the testing data provided by  https://github.com/SoYeonA/TenSQR and https://github.com/SoYeonA/aBayesQR <br>
 
 ### Functions
