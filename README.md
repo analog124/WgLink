@@ -39,6 +39,7 @@ If users want use abayesQR as local region haplotype calculation tool. Users can
 `java -jar WgLink.jar aBayesQR aBayesQR.config`
 
 **#WgLink Parameters**<br>
+##########<br>
 ## The name of the project.<br>
 **Proj_Name** = Project_Name<br> 
 ## Absolute paths for fastq files.
