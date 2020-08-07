@@ -39,6 +39,18 @@ If users want to try using abayesQR as local region haplotype calculation tool. 
 `java -jar WgLink.jar aBayesQR aBayesQR.config`
 
 
+### Citations
+If you use the TenSQR function, please cite:<br>
+Ahn S, Ke Z, Vikalo H. Viral quasispecies reconstruction via tensor factorization with successive read removal[J]. Bioinformatics, 2018, 34(13): i23-i31.<br>
+If you use the aBayesQR function, please cite:<br>
+Ahn S, Vikalo H. aBayesQR: A bayesian method for reconstruction of viral populations characterized by low diversity[C]//International Conference on Research in Computational Molecular Biology. Springer, Cham, 2017: 353-369. <br>
+
+
+### Contacts
+Chen Cao, chen.cao@ucalgary.ca<br>
+Quan Long, quan.long@ucalgary.ca<br>
+
+
 ### Copyright License (MIT Open Source)
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
