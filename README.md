@@ -77,7 +77,7 @@ If users want use abayesQR as local region haplotype calculation tool. Users can
 **Regression_Hap_MAF_Weight** = 5.0  <br> 
 ##The weight for LD (specifically, the probability for both SNP_k and SNP_j being the alternate allele)<br> 
 **Regression_Hap_LD_Weight** = 1.0  <br> 
-##Maximum SNP mismatch ratio tolerance in region extextion<br> 
+##Maximum SNP mismatch ratio tolerance in region extension.<br> 
 **BFS_Mismatch_Tolerance_Rate** = 0.1<br> 
 **Number_Threads** = 8 <br> 
 ##Number of maximum selected haplotypes to generate higher level potential haplotypes for following L0L1 regression.<br> 
