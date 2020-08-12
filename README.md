@@ -1,8 +1,6 @@
 ## Users’ Manual of WgLink (Version 1.0)
 ### Preamble
-WgLink, a novel tool using regularized regression to stitch together regional haplotypes into global ones. Te workflow of WgLink is briefed as follows: (A) WgLink first determines local region & tiling region haplotypes by applying tools: TenSQR or aBayesQR. 
-(B) Regional haplotypes are joined together using breadth first search which could tolerate specified SNV mismatch when extending regions. C) The
-haplotypes is estimated by L0L1 regularized regression to solve for the haplotype distribution problem.
+WgLink, a novel tool using regularized regression to stitch together regional haplotypes into global ones. The workflow of WgLink is briefed as follows: (A) WgLink first determines local region & tiling region haplotypes by applying tools: TenSQR or aBayesQR. (B) Regional haplotypes are joined together to generate all possible whole-genome haplotypes using a breadth-first search which could tolerate specified SNV mismatch when extending regions. C) The haplotypes is estimated by L0L1 regularized regression to solve for the haplotype distribution problem.
 
 ### Installation
 WgLink.jar is a batteries-included JAR executable. All needed external jar packages are included in the downloadable, PoolHapX.jar. To download all necessary files, users can use the command 
