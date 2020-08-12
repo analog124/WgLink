@@ -1,9 +1,6 @@
 ## Users’ Manual of WgLink (Version 1.0)
 ### Preamble
-The WgLink program reconstructs haplotypes.
-
-
-The workflow of WgLink is briefed as follows: (A) WgLink first determines local region & tiling region haplotypes by applying tools: TenSQR or aBayesQR. 
+WgLink, a novel tool using regularized regression to stitch together regional haplotypes into global ones. Te workflow of WgLink is briefed as follows: (A) WgLink first determines local region & tiling region haplotypes by applying tools: TenSQR or aBayesQR. 
 (B) Regional haplotypes are joined together using breadth first search which could tolerate specified SNV mismatch when extending regions. C) The
 haplotypes is estimated by L0L1 regularized regression to solve for the haplotype distribution problem.
 
